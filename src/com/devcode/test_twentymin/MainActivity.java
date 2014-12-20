@@ -80,7 +80,7 @@ public class MainActivity extends ActionBarActivity {
 			List<NameValuePair> params = new ArrayList<NameValuePair>();
 			String Email = scanResult.getContents().toString();
 			params.add(new BasicNameValuePair("Email",Email));
-			String url="http://4event.co/20Minutos/AppScript/Acreditar.php";
+			String url="";
 			Toast.makeText(getApplicationContext(), Email, Toast.LENGTH_LONG).show();
 			consultaBdx(params,url);
 		}
